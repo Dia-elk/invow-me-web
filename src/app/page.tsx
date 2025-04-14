@@ -13,7 +13,7 @@ export default function Home() {
                 </div>
                 <div
                     className={'w-full flex flex-col justify-center items-center relative z-50 max-w-xl mx-auto text-center'}>
-                    <h1 className={'text-3xl font-bold'}>We’re cooking up something so easy,<br/> even your invoices
+                    <h1 className={'text-3xl font-bold text-white'}>We’re cooking up something so easy,<br/> even your invoices
                         will laugh. 🔥 </h1>
                     <p className={'text-xs mt-4 text-neutral-400'}>Say goodbye to messy spreadsheets and awkward
                         follow-ups.
@@ -22,7 +22,7 @@ export default function Home() {
                     </p>
                     <div
                         className={'w-full p-2 rounded-lg bg-[#2869FE] mt-8 select-none cursor-pointer transation-all duration-500 hover:opacity-80'}>
-                        <a href={'mailto:contact@invow.me'} className={' text-xs font-bold '}>Slide into our inbox — we promise not to invoice you
+                        <a href={'mailto:contact@invow.me'} className={' text-xs font-bold text-white'}>Slide into our inbox — we promise not to invoice you
                             (yet).</a>
                     </div>
 
