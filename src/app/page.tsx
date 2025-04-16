@@ -20,11 +20,12 @@ export default function Home() {
                         InvowMe is designed to make billing feel effortless — fast, clean, and maybe even fun.
                         Stay tuned, the recipe’s almost ready. 🍳📄
                     </p>
-                    <div
+                    <a
+                        href={'mailto:contact@invow.me'}
                         className={'w-full p-2 rounded-lg bg-[#2869FE] mt-8 select-none cursor-pointer transation-all duration-500 hover:opacity-80'}>
-                        <a href={'mailto:contact@invow.me'} className={' text-xs font-bold text-white'}>Slide into our inbox — we promise not to invoice you
-                            (yet).</a>
-                    </div>
+                        <p className={' text-xs font-bold text-white'}>Slide into our inbox — we promise not to invoice you
+                            (yet).</p>
+                    </a>
 
                 </div>
                 <div className={'w-full h-full overflow-hidden relative'}>
