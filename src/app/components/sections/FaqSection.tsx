@@ -17,9 +17,9 @@ const FaqSection = () => {
                </div>
                 <div className={'space-y-4'}>
                     <FaqCard cardHeight={"h-30"} question={"Puis-je personnaliser mes factures ?"} answer={"Oui, tous les forfaits permettent d’ajouter votre logo, vos coordonnées, et les mentions légales."}/>
-                    <FaqCard cardHeight={"h-30"} question={"Qu’est-ce que la livraison digitale ?"} answer={"C’est une fonctionnalité (incluse dans Giga Patron) qui permet à vos clients de télécharger directement vos livrables depuis la facture, après paiement."}/>
+                    <FaqCard cardHeight={"h-30"} question={"Qu’est-ce que la livraison digitale ?"} answer={"C’est une fonctionnalité (incluse dans le forfait Giga Patron) qui permet à vos clients de télécharger directement vos livrables depuis la facture, après paiement."}/>
                     <FaqCard cardHeight={"h-30"} question={"Puis-je automatiser ma facturation ?"} answer={"Oui, le forfait Giga Patron donne accès à l’API et aux webhooks, idéals pour connecter InvowMe à vos autres outils."}/>
-                    <FaqCard cardHeight={"h-30"} question={"Comment fonctionne la collecte de paiement ?"} answer={"Avec Giga Patron, vos clients peuvent payer directement en ligne via un lien sécurisé intégré dans la facture."}/>
+                    <FaqCard cardHeight={"h-30"} question={"Comment fonctionne la collecte de paiement ?"} answer={"Avec le forfait Giga Patron, vos clients peuvent payer directement en ligne via un lien sécurisé intégré dans la facture."}/>
                     <FaqCard cardHeight={"h-30"} question={"Est-ce qu’il existe des modèles de factures plus avancés ?"} answer={"Oui, vous pouvez acheter des templates premium (devis & factures) à petit prix pour un rendu encore plus professionnel."}/>
                     <FaqCard cardHeight={"h-30"} question={"Puis-je suivre si mes factures ont été ouvertes par mes clients ?"} answer={"Oui, avec les forfaits payants, vous êtes notifié lorsque vos clients ouvrent les factures envoyées par email. Pratique pour relancer au bon moment !"}/>
                 </div>

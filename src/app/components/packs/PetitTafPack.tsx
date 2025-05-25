@@ -12,7 +12,7 @@ const PetitTafPack = () => {
                 </div>
                 <div className={'flex flex-wrap gap-2 font-bold'}>
                     <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-secondary text-background'}>
-                        📄 50/mois factures & devis
+                        📄 50 factures & devis/mois
                     </div>
                     <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-secondary text-background'}>
                         👥 10 clients
@@ -24,10 +24,10 @@ const PetitTafPack = () => {
                         ⏱ Suivi paiements
                     </div>
                     <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-secondary text-background'}>
-                        🧘 Sans engagement
+                        🇲🇦 Conforme fiscalité
                     </div>
                     <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-secondary text-background'}>
-                        🇲🇦 Conforme fiscalité
+                        🔐 Données sécurisées & protégées
                     </div>
                 </div>
             </div>
