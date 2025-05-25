@@ -75,7 +75,7 @@ const NavBar = () => {
             </div>
 
             {/* Mobile Menu Widget */}
-            <div className={`md:hidden  w-full fixed left-0 h-screen bg-secondary text-background text-xs  select-none transition-all duration-300 ease-in-out flex flex-col items-center gap-4 justify-center px-20 ${
+            <div className={`md:hidden z-40  w-full fixed left-0 h-screen bg-secondary text-background text-xs  select-none transition-all duration-300 ease-in-out flex flex-col items-center gap-4 justify-center px-20 ${
                 isMenuOpen ? 'top-0' : '-top-[100vh]'
             }`}>
                 <Link href={'/fonctionnalites'} >Fonctionnalités</Link>
