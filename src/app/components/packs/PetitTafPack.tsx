@@ -3,7 +3,7 @@ import React from 'react';
 const PetitTafPack = () => {
     return (
         <div className={'border border-indigo-300 p-6 rounded-2xl relative flex flex-col items-center justify-center select-none cursor-default text-background'}>
-            <p className={'bg-background border border-indigo-300 text-light text-center absolute -top-4 rounded-full text-xs px-4 py-2'}>🛠️ Bientôt disponible</p>
+            <p className={'bg-background border border-indigo-300 text-[#052d32] dark:text-light text-center absolute -top-4 rounded-full text-xs px-4 py-2'}>🛠️ Bientôt disponible</p>
             <div className={'h-[500px] bg-indigo-300 rounded-2xl  p-4 flex flex-col justify-between'}>
                 <div className={'p-4'}>
                     <h2 className={' text-4xl font-light'}>Petit Taf</h2>
@@ -11,22 +11,22 @@ const PetitTafPack = () => {
                     <p className={'text-sm text-black/50 mt-4'}>Pour les freelances qui commencent à envoyer du lourd (mais pas trop)</p>
                 </div>
                 <div className={'flex flex-wrap gap-2 font-bold'}>
-                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-secondary text-background'}>
+                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-primary text-[#052d32] dark:bg-secondary dark:text-background'}>
                         📄 50 factures & devis/mois
                     </div>
-                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-secondary text-background'}>
+                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-primary text-[#052d32] dark:bg-secondary dark:text-background'}>
                         👥 10 clients
                     </div>
-                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-secondary text-background'}>
+                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-primary text-[#052d32] dark:bg-secondary dark:text-background'}>
                         📤 Envoi par email
                     </div>
-                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-secondary text-background'}>
+                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-primary text-[#052d32] dark:bg-secondary dark:text-background'}>
                         ⏱ Suivi paiements
                     </div>
-                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-secondary text-background'}>
+                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-primary text-[#052d32] dark:bg-secondary dark:text-background'}>
                         🇲🇦 Conforme fiscalité
                     </div>
-                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-secondary text-background'}>
+                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-primary text-[#052d32] dark:bg-secondary dark:text-background'}>
                         🔐 Données sécurisées & protégées
                     </div>
                 </div>

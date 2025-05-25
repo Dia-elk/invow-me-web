@@ -11,19 +11,19 @@ const GratouillePack = () => {
                     <p className={'text-sm text-black/50 mt-4'}>Pour ceux qui veulent tester sans se gratter le porte-monnaie</p>
                 </div>
                 <div className={'flex flex-wrap gap-2'}>
-                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-indigo-300 text-background'}>
+                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-green-200 dark:bg-indigo-300 text-[#052d32] dark:text-background'}>
                         👤 1 client
                     </div>
-                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-indigo-300 text-background'}>
+                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-green-200 dark:bg-indigo-300 text-[#052d32] dark:text-background'}>
                         📄 5/mois factures & devis
                     </div>
-                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-indigo-300 text-background'}>
+                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-green-200 dark:bg-indigo-300 text-[#052d32] dark:text-background'}>
                         📥 Téléchargement PDF
                     </div>
-                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-indigo-300 text-background'}>
+                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-green-200 dark:bg-indigo-300 text-[#052d32] dark:text-background'}>
                         🇲🇦 Conforme fiscalité
                     </div>
-                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-indigo-300 text-background'}>
+                    <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-green-200 dark:bg-indigo-300 text-[#052d32] dark:text-background'}>
                         🔐 Données sécurisées & protégées
                     </div>
                 </div>

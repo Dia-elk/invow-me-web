@@ -30,8 +30,8 @@ const FeaturesSection = () => {
                     <div className={'bg-background p-3 rounded-lg w-fit text-secondary'}>
                         <ClockIcon/>
                     </div>
-                    <h3 className={'font-black mt-4 text-xl'}>Suivi des paiements</h3>
-                    <p className={'text-sm'}>Voyez qui vous a payé, relancez ceux qui tardent.</p>
+                    <h3 className={'font-black mt-4 text-xl text-[#052d32]'}>Suivi des paiements</h3>
+                    <p className={'text-sm text-[#052d32]'}>Voyez qui vous a payé, relancez ceux qui tardent.</p>
                 </div>
 
                 {/* Petit carré */}
@@ -57,8 +57,8 @@ const FeaturesSection = () => {
                     <div className={'bg-background p-3 rounded-lg w-fit text-secondary'}>
                         <CloudDownloadIcon/>
                     </div>
-                    <h3 className={'font-black mt-4 md:mt-20 text-xl'}>Livraison digitale intégrée</h3>
-                    <p className={'md:mt-4 text-sm'}>Après validation du paiement, un espace sécurisé s’ouvre automatiquement dans la facture où votre client peut télécharger les fichiers livrés (documents, maquettes, vidéos, rapports, etc.). Plus besoin d’envoyer des liens par email ou WeTransfer</p>
+                    <h3 className={'font-black mt-4 md:mt-20 text-xl text-[#052d32]'}>Livraison digitale intégrée</h3>
+                    <p className={'md:mt-4 text-sm text-[#052d32]'}>Après validation du paiement, un espace sécurisé s’ouvre automatiquement dans la facture où votre client peut télécharger les fichiers livrés (documents, maquettes, vidéos, rapports, etc.). Plus besoin d’envoyer des liens par email ou WeTransfer</p>
                 </div>
 
                 {/* Autre carré */}

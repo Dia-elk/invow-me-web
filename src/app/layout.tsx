@@ -70,7 +70,7 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body
-            className={`${novelinFont.className} font-bold  antialiased bg-background`}
+            className={`${novelinFont.className} font-bold  antialiased`}
         >
         <Analytics/>
 
