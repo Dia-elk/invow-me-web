@@ -21,10 +21,10 @@ const GratouillePack = () => {
                         📥 Téléchargement PDF
                     </div>
                     <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-indigo-300 text-background'}>
-                        🧘 Sans engagement
+                        🇲🇦 Conforme fiscalité
                     </div>
                     <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-indigo-300 text-background'}>
-                        🇲🇦 Conforme fiscalité
+                        🔐 Données sécurisées & protégées
                     </div>
                 </div>
             </div>

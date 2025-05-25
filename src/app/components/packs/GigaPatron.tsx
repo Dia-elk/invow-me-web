@@ -8,7 +8,7 @@ const GigaPatron = () => {
                 <div className={'p-4'}>
                     <h2 className={' text-4xl font-light'}>Giga Patron</h2>
                     <p className={'font-black mt-8 text-lg'}>199.00 <span className={'text-xs'}>DH/Mois</span></p>
-                    <p className={'text-sm text-black/50 mt-4'}>Pour les freelances qui commencent à envoyer du lourd (mais pas trop)</p>
+                    <p className={'text-sm text-black/50 mt-4'}>Tu veux automatiser, connecter, déléguer ? Bienvenue dans la cour des grands.</p>
                 </div>
                 <div className={'flex flex-wrap gap-2 font-bold'}>
                     <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-green-200 text-background'}>
@@ -39,10 +39,10 @@ const GigaPatron = () => {
                         💳 Paiement en ligne
                     </div>
                     <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-green-200 text-background'}>
-                        🧘 Sans engagement
+                        🇲🇦 Conforme fiscalité
                     </div>
                     <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-green-200 text-background'}>
-                        🇲🇦 Conforme fiscalité
+                        🔐 Données sécurisées & protégées
                     </div>
                 </div>
             </div>
