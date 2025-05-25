@@ -1,36 +1,62 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type {Metadata} from "next";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react"
+import {Analytics} from "@vercel/analytics/react"
+import Lenis from "@/app/components/Lenis";
+import NavBar from "@/app/components/NavBar";
+import Footer from "@/app/components/Footer";
+import localFont from 'next/font/local'
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+
+const novelinFont = localFont({
+    src:[
+        {
+            path: '../fonts/Novelin-Light.woff2',
+            weight: '300',
+            style: 'normal',
+        },
+        {
+            path: '../fonts/Novelin-Regular.woff2',
+            weight: '400',
+            style: 'normal',
+        },
+        {
+            path: '../fonts/Novelin-Bold.woff2',
+            weight: '700',
+            style: 'normal',
+        },
+        {
+            path: '../fonts/Novelin-Black.woff2',
+            weight: '900',
+            style: 'normal',
+        },
+    ]
+})
 
 export const metadata: Metadata = {
-  title: "Coming Soon | Freelance Invoice App Made in Morocco 🇲🇦",
-  description: "A smart, playful invoicing app built for freelancers who hate the paperwork. Made in Morocco 🇲🇦, launching soon. Say goodbye to billing headaches — and hello to fast, easy payments.",
+    title: "Solution de facturation pour freelances et agences au Maroc 🇲🇦 | InvowMe",
+    description: "Créez et envoyez vos factures en ligne facilement avec InvowMe. Pensé pour les freelances et agences marocains : rapide, conforme, et sans prise de tête.",
 };
 
 export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
+                                       children,
+                                   }: Readonly<{
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased overflow-hidden`}
-      >
-      <Analytics/>
-        {children}
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en">
+        <body
+            className={`${novelinFont.className} font-bold  antialiased overflow-hidden bg-[#052d32]`}
+        >
+        <Analytics/>
+
+            <NavBar/>
+            <Lenis>
+                {children}
+            </Lenis>
+
+        <Footer/>
+        </body>
+        </html>
+    );
 }
