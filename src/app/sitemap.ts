@@ -5,31 +5,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
         {
             url: 'https://invow.me',
             lastModified: new Date(),
-            changeFrequency: 'weekly',
+            changeFrequency: 'daily',
             priority: 1,
         },
         {
             url: 'https://invow.me/fonctionnalites',
             lastModified: new Date(),
-            changeFrequency: 'weekly',
+            changeFrequency: 'daily',
             priority: 0.5,
         },
         {
             url: 'https://invow.me/tarifs',
             lastModified: new Date(),
-            changeFrequency: 'weekly',
+            changeFrequency: 'daily',
             priority: 0.5,
         },
         {
             url: 'https://invow.me/comment-ca-marche',
             lastModified: new Date(),
-            changeFrequency: 'weekly',
+            changeFrequency: 'daily',
             priority: 0.5,
         },
         {
             url: 'https://invow.me/testimonials',
             lastModified: new Date(),
-            changeFrequency: 'weekly',
+            changeFrequency: 'daily',
             priority: 0.5,
         },
     ]
