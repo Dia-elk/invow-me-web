@@ -6,7 +6,7 @@ const Layout = ({children}: { children: React.ReactNode }) => {
     return (
         <>
             <UnderLogoTitle title={'Blog'}/>
-            <main className={'py-20 max-w-5xl mx-auto px-4'}>
+            <main className={'py-20 max-w-3xl  mx-auto px-4'}>
                 <article>
                     {children}
                 </article>

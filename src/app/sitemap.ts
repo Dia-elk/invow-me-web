@@ -32,5 +32,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: 'daily',
             priority: 0.5,
         },
+        {
+            url: 'https://invow.me/blog',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.5,
+        },
+        {
+            url: 'https://invow.me/blog/creer-facture-maroc',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.5,
+        },
+        {
+            url: 'https://invow.me/blog/mentions-obligatoires-facture',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.5,
+        },
+        {
+            url: 'https://invow.me/blog/erreurs-facturation-debutants',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.5,
+        },
+        {
+            url: 'https://invow.me/blog/creer-devis-efficace',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.5,
+        },
+        {
+            url: 'https://invow.me/blog/devis-vs-facture-maroce',
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 0.5,
+        },
     ]
 }
