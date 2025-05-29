@@ -35,10 +35,15 @@ const Footer = () => {
                     <div className={'flex items-center gap-2'}>
                         <div className={'w-1 h-1 rounded-full bg-background'}>
                         </div>
+                        <Link href={'/blog'}>Blog</Link>
+                    </div>
+                    <div className={'flex items-center gap-2'}>
+                        <div className={'w-1 h-1 rounded-full bg-background'}>
+                        </div>
                         <a target={'_blank'} href={"https://app.invow.me"} className={'cursor-pointer'}>Inscription
                             gratuite</a>
                     </div>
-                    <div className={'flex justify-between md:block mt-8 text-xs space-y-2 '}>
+                    <div className={'flex justify-between md:block mt-4 md:mt-8 text-xs space-y-2 '}>
                        <div>
                            <p>contact@invow.me</p>
                            <p>+212 693 484 092</p>
