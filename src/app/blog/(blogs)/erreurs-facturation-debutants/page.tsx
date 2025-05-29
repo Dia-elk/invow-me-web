@@ -23,7 +23,7 @@ const Page = () => {
             <div className={'space-y-4  mt-20'}>
                 <h4 className={'font-black text-xl'}>1. Ne pas émettre de facture </h4>
                 <p>Oui, cela paraît évident. Pourtant, de nombreux freelances oublient de formaliser leurs prestations
-                    par une facture, surtout quand il s'agit de missions "entre amis" ou de petits montants. C’est une
+                    par une facture, surtout quand il s&apos;agit de missions &quot;entre amis&quot; ou de petits montants. C’est une
                     erreur qui peut vous faire perdre vos droits et compliquer votre comptabilité. Même pour 200 MAD,
                     facturez toujours.</p>
             </div>
@@ -54,15 +54,15 @@ const Page = () => {
                 <h4 className={'font-black text-xl'}>4. Ne pas mentionner les pénalités de retard</h4>
                 <p>En cas de non-paiement, si vous n’avez pas mentionné de pénalités dans votre facture, il sera plus
                     difficile de faire valoir vos droits. Ajoutez toujours une ligne comme :
-                    "Pénalités de retard : taux légal en vigueur après 30 jours."</p>
+                    &quot;Pénalités de retard : taux légal en vigueur après 30 jours.&quot;</p>
             </div>
 
             <div className={'space-y-4  mt-20'}>
                 <h4 className={'font-black text-xl'}>5. Être flou dans la description de la prestation</h4>
-                <p>Écrire simplement "mission web" ou "conseil" ne suffit pas. Soyez précis :</p>
+                <p>Écrire simplement &quot;mission web&quot; ou &quot;conseil&quot; ne suffit pas. Soyez précis :</p>
                 <ul className={'list-disc px-8 space-y-2'}>
-                    <li>"Développement du site vitrine WordPress pour la société X"</li>
-                    <li>"Consultation SEO sur une période de 3 jours"</li>
+                    <li>&quot;Développement du site vitrine WordPress pour la société X&quot;</li>
+                    <li>&quot;Consultation SEO sur une période de 3 jours&quot;</li>
                 </ul>
                 <p className={'font-black'}>Cela évite les contestations et rassure le client.</p>
             </div>

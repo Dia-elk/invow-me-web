@@ -36,7 +36,8 @@ export const metadata: Metadata = {
         images: ["https://invow.me/logo.png"],
     },
 };
-function shuffleArray(array) {
+
+function shuffleArray(array: { slug: string; title: string; description: string; image: string; keywords: string[]; }[]) {
     const shuffled = [...array];
     for (let i = shuffled.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -44,6 +45,7 @@ function shuffleArray(array) {
     }
     return shuffled;
 }
+
 const Page = async () => {
     const shuffledBlogs = shuffleArray(blogs);
     return (
@@ -51,7 +53,9 @@ const Page = async () => {
             <UnderLogoTitle title={'Blog'}/>
             <div className={'py-40 max-w-5xl mx-auto px-4'}>
                 <div className={'grid gap-40'}>
-                    {shuffledBlogs.map((blog,index)=> <BlogCard key={blog.slug} slug={blog.slug} title={blog.title} description={blog.description} image={blog.image} isReversed={index % 2 !== 0}/>)}
+                    {shuffledBlogs.map((blog, index) => <BlogCard key={blog.slug} slug={blog.slug} title={blog.title}
+                                                                  description={blog.description} image={blog.image}
+                                                                  isReversed={index % 2 !== 0}/>)}
                 </div>
             </div>
         </div>

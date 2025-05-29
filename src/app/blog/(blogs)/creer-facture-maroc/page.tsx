@@ -24,7 +24,7 @@ const Page = () => {
 
             <div className={'space-y-4  mt-20'}>
                 <h4 className={'font-black text-xl'}>Pourquoi une facture conforme est indispensable ?</h4>
-                <p>Une facture bien faite n'est pas seulement un document à transmettre au client. Elle vous protège
+                <p>Une facture bien faite n&apos;est pas seulement un document à transmettre au client. Elle vous protège
                     juridiquement, vous permet d’être payé dans les délais, facilite votre comptabilité, et vous rend
                     crédible.</p>
                 <p>Une facture mal rédigée ou incomplète peut être rejetée par un client ou vous poser problème en cas

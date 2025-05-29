@@ -63,7 +63,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 0.5,
         },
         {
-            url: 'https://invow.me/blog/devis-vs-facture-maroce',
+            url: 'https://invow.me/blog/devis-vs-facture-maroc',
             lastModified: new Date(),
             changeFrequency: 'daily',
             priority: 0.5,

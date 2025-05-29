@@ -1,7 +1,6 @@
 "use client"
 import React from 'react';
 import UnderLogoTitle from "@/app/components/UnderLogoTitle";
-import Link from "next/link";
 import BlogShare from "@/app/components/BlogShare";
 import {usePathname} from "next/navigation";
 import {getBlogShareData} from "@/utils/getBlogShareData";

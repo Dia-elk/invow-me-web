@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from "next/link";
 
-interface BlogCard {
+interface BlogCardProps {
     slug: string,
     title: string,
     description: string,
@@ -9,7 +9,7 @@ interface BlogCard {
     isReversed: boolean,
 }
 
-const BlogCard = ({slug, title, description, image, isReversed}) => {
+const BlogCard = ({slug, title, description, image, isReversed}:BlogCardProps) => {
     return (
         <div className={'grid md:grid-cols-2 gap-8'}>
             <div className={'h-80 w-full overflow-hidden rounded-xl ' +(isReversed ? "order-1 md:order-2" : "order-1 md:order-1")}>

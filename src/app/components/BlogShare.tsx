@@ -14,7 +14,7 @@ interface BlogShareProps {
     title: string,
 }
 
-const BlogShare = ({url, title}: { url: string; title: string }) => {
+const BlogShare = ({url, title}:BlogShareProps ) => {
     return (
         <div className="flex gap-4 mt-10">
             <FacebookShareButton url={url} quote={title}>

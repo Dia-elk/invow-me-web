@@ -38,7 +38,7 @@ const Page = () => {
                     <li>Le délai de réalisation</li>
                     <li>La durée de validité du devis (généralement 15 à 30 jours)</li>
                     <li>Les modalités de paiement</li>
-                    <li>Une mention "Bon pour accord" avec espace pour la signature</li>
+                    <li>Une mention &quot;Bon pour accord&quot; avec espace pour la signature</li>
                 </ul>
                 <p className={'font-black'}>Sans ces éléments, votre devis risque de ne pas être pris au sérieux.</p>
             </div>
@@ -48,9 +48,9 @@ const Page = () => {
                 <p>C’est là que tout se joue. Évitez les termes vagues. Préférez une description détaillée mais
                     accessible. Par exemple :</p>
                 <ul className={'list-disc px-8 space-y-2'}>
-                    <li>❌ "Création site web"</li>
-                    <li>✅ "Conception d’un site vitrine WordPress de 5 pages optimisé SEO, avec formulaire de contact et
-                        intégration Google Maps"
+                    <li>❌ &quot;Création site web&quot;</li>
+                    <li>✅ &quot;Conception d’un site vitrine WordPress de 5 pages optimisé SEO, avec formulaire de contact et
+                        intégration Google Maps&quot;
                     </li>
                 </ul>
                 <p className={'font-black'}>Plus c’est précis, plus votre valeur perçue augmente.</p>
@@ -83,7 +83,7 @@ const Page = () => {
             <div className={'space-y-4  mt-20'}>
                 <h4 className={'font-black text-xl'}>6. Personnalisez votre devis</h4>
                 <p>Ajoutez une petite phrase d’introduction ou de clôture personnalisée :</p>
-                <p>"Merci pour votre intérêt, je serais ravi de collaborer avec vous sur ce projet."</p>
+                <p>&quot;Merci pour votre intérêt, je serais ravi de collaborer avec vous sur ce projet.&quot;</p>
                 <p>Ce type de touche humaine vous différencie des devis froids et impersonnels.</p>
             </div>
 

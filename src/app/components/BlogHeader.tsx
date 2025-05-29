@@ -1,12 +1,12 @@
 import React from 'react';
 
-interface BlogHeader {
+interface BlogHeaderProps {
     title: string,
     description: string,
     image: string,
 }
 
-const BlogHeader = ({title, description, image}) => {
+const BlogHeader = ({title, description, image}:BlogHeaderProps) => {
     return (
         <div>
             <p className={"text-secondary text-xs"}> {description}</p>
