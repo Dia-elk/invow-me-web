@@ -7,7 +7,7 @@ const PetitTafPack = () => {
             <div className={'h-[500px] bg-indigo-300 rounded-2xl  p-4 flex flex-col justify-between'}>
                 <div className={'p-4'}>
                     <h2 className={' text-4xl font-light'}>Petit Taf</h2>
-                    <p className={'font-black mt-8 text-lg'}>49.00 <span className={'text-xs'}>DH/Mois</span></p>
+                    <p className={'font-black mt-8 text-lg'}>99.00 <span className={'text-xs'}>DH/Mois</span></p>
                     <p className={'text-sm text-black/50 mt-4'}>Pour les freelances qui commencent à envoyer du lourd (mais pas trop)</p>
                 </div>
                 <div className={'flex flex-wrap gap-2 font-bold'}>
