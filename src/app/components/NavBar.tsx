@@ -71,6 +71,9 @@ const NavBar = () => {
                 <Link href={'/testimonials'} className={'hover:font-black transition-all duration-300'}>Testimonials</Link>
                 <div className={'w-1 h-1 rounded-full bg-background'}>
                 </div>
+                <Link href={'/blog'} className={'hover:font-black transition-all duration-300'}>Blog</Link>
+                <div className={'w-1 h-1 rounded-full bg-background'}>
+                </div>
                 <a target={'_blank'} href={"https://app.invow.me"} className={'cursor-pointer hover:font-black transition-all duration-300'}>Inscription gratuite</a>
             </div>
 
@@ -88,6 +91,9 @@ const NavBar = () => {
                 <div className={'w-1 h-1 rounded-full bg-background'}>
                 </div>
                 <Link href={'/testimonials'} >Testimonials</Link>
+                <div className={'w-1 h-1 rounded-full bg-background'}>
+                </div>
+                <Link href={'/blog'} >Blog</Link>
                 <div className={'w-1 h-1 rounded-full bg-background'}>
                 </div>
                 <a target={'_blank'} href={"https://app.invow.me"} className={'cursor-pointer'}>Inscription gratuite</a>

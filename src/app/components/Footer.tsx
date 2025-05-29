@@ -39,7 +39,7 @@ const Footer = () => {
                             gratuite</a>
                     </div>
                     <div className={'flex justify-between md:block mt-8 text-xs space-y-2 '}>
-                       <div className={'opacity-80'}>
+                       <div>
                            <p>contact@invow.me</p>
                            <p>+212 693 484 092</p>
                        </div>
@@ -66,7 +66,7 @@ const Footer = () => {
                         <LinkedinIcon/>
                     </a>
                 </div>
-                <p className={'text-[10px] font-light absolute bottom-4'}>© {date.getFullYear()} InvowMe. Pas de
+                <p className={'text-[10px]  absolute bottom-4'}>© {date.getFullYear()} InvowMe. Pas de
                     paperasse, pas de panique. Juste des factures.</p>
             </div>
         </div>
