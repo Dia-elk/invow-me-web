@@ -1,8 +1,14 @@
+"use client"
 import React from 'react';
 import UnderLogoTitle from "@/app/components/UnderLogoTitle";
 import Link from "next/link";
+import BlogShare from "@/app/components/BlogShare";
+import {usePathname} from "next/navigation";
+import {getBlogShareData} from "@/utils/getBlogShareData";
 
 const Layout = ({children}: { children: React.ReactNode }) => {
+    const pathName = usePathname()
+    const blogShareData = getBlogShareData(pathName);
     return (
         <>
             <UnderLogoTitle title={'Blog'}/>
@@ -23,6 +29,13 @@ const Layout = ({children}: { children: React.ReactNode }) => {
                         </a>
                     </div>
                 </div>
+                {
+                    blogShareData &&
+                    <div className={'flex flex-col items-center justify-center mt-20'}>
+                        <p className={'font-black'}>Vous avez aimé cet article ? Partagez-le :</p>
+                        <BlogShare url={blogShareData.url} title={blogShareData.title}/>
+                    </div>
+                }
             </main>
         </>
     );
