@@ -21,7 +21,7 @@ const BlogCard = ({slug, title, description, image, isReversed}:BlogCardProps) =
                     <h2 className={'text-xl font-black'}>{title}</h2>
                     <p className={'text-sm pt-8'}>{description}</p>
                 </div>
-                <div>
+                <div className={'mt-12 md:mt-0'}>
                     <Link href={slug} className={' w-fit bg-secondary font-black px-8 py-4 text-xs select-none cursor-pointer rounded-lg text-background hover:bg-primary hover:text-[#052d32] transition-all duration-300'}>
                         Lire l’article ---→
                     </Link>

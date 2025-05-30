@@ -4,7 +4,7 @@ const GigaPatron = () => {
     return (
         <div className={'border border-primary p-6 rounded-2xl relative flex flex-col items-center justify-center select-none cursor-default text-background'}>
             <p className={'bg-background border border-primary text-[#052d32] dark:text-light text-center absolute -top-4 rounded-full text-xs px-4 py-2'}>🛠️ Bientôt disponible</p>
-            <div className={'h-[500px] bg-primary rounded-2xl  p-4 flex flex-col justify-between'}>
+            <div className={'h-full bg-primary rounded-2xl  p-4 flex flex-col justify-between'}>
                 <div className={'p-4'}>
                     <h2 className={' text-4xl font-light text-[#052d32] dark:text-light'}>Giga Patron</h2>
                     <p className={'font-black mt-8 text-lg text-[#052d32] dark:text-light'}>199.00 <span className={'text-xs'}>DH/Mois</span></p>
@@ -33,10 +33,10 @@ const GigaPatron = () => {
                         ⚙️ Accès API
                     </div>
                     <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-indigo-300 dark:bg-green-200 text-background'}>
-                        🛠️ Webhooks
+                        🔗 Lien de paiement
                     </div>
                     <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-indigo-300 dark:bg-green-200 text-background'}>
-                        💳 Paiement en ligne
+                        ✍️ Signature électronique
                     </div>
                     <div className={'rounded-full text-[9px] w-fit py-2 px-3 bg-indigo-300 dark:bg-green-200 text-background'}>
                         🇲🇦 Conforme fiscalité
